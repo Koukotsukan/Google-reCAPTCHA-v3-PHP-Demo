@@ -1,0 +1,1 @@
+ grecaptcha.ready(function() { grecaptcha.execute('你的网站密钥放在这里(PUT YOUR SITEKEY HERE)', {action:'validate_captcha'}).then(function(token) {document.getElementById('g-recaptcha-response').value = token;});});
